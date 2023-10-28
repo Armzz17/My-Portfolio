@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import {FaTimes} from 'react-icons/fa'
-import {CiMenuFries} from 'react-icons/ci'
+import {FaRegTimesCircle} from 'react-icons/fa'
+import {HiOutlineMenu} from 'react-icons/hi'
 import { useState } from 'react'
 import Logo from '../img/LOGO.png'
 
@@ -90,7 +90,7 @@ const Nav = () => {
 
                     </div>   
                     <button className='block sm:hidden transition' onClick={handleClick} >
-                        {click ?<FaTimes/> : <CiMenuFries/> }
+                        {click ?<FaRegTimesCircle/> : <HiOutlineMenu/> }
                     </button>
         </div>
     </nav>
