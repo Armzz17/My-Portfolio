@@ -28,7 +28,7 @@ const Home = () => {
             <span className='flex flex-1'>Hi, <MdWavingHand/></span>
             <h3 className='font-semibold text-[#81FFD9] '> I'm Arman</h3></div>
             <h1 data-aos= "fade-down" className='text-[52px] font-semibold mb-8 leading-normal uppercase'>Web Developer </h1>
-            <div className='flex flex-1 space-x-2 text-[#81FFD9]'>
+            <div className='flex flex-1 space-x-2  text-[#81FFD9]'>
             <p data-aos= "fade-up">Front-End Developer /</p>
             <p data-aos= "fade-up">Back-End Developer /</p>
             <p data-aos= "fade-up">Full-Stack Developer /</p>
