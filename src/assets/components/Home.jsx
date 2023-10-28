@@ -19,7 +19,7 @@ const Home = () => {
         }) 
         return (
        
-        <div id='Home' data-aos= "fade-up" className='lg:px-56 px-10 lg:py-0 py-20 lg:text-left gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center '>
+        <div id='Home' data-aos= "fade-up" className='text-center lg:px-56 px-10 lg:py-0 py-20 lg:text-left gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center '>
           <div className='h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white'>  
         
            
@@ -28,7 +28,7 @@ const Home = () => {
             <span className='flex flex-1'>Hi, <MdWavingHand/></span>
             <h3 className='font-semibold text-[#81FFD9] '> I'm Arman</h3></div>
             <h1 data-aos= "fade-down" className='text-[52px] font-semibold mb-8 leading-normal uppercase'>Web Developer </h1>
-            <div className='flex flex-1 space-x-2  text-[#81FFD9]'>
+            <div className='flex flex-1 space-x-2  text-[#81FFD9] text-[12px]'>
             <p data-aos= "fade-up">Front-End Developer /</p>
             <p data-aos= "fade-up">Back-End Developer /</p>
             <p data-aos= "fade-up">Full-Stack Developer /</p>

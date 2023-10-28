@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id='Contacts' className='p-20 flex flex-col items-center justify-center'>
+    <div id='Contacts' className='p-20 flex flex-col items-center justify-center text-center'>
       <h1 className='text-[52px] font-semibold mb-20 leading-normal uppercase text-[#81FFD9]'>Contact me</h1>
       <form action="" className='flex flex-col gap-2 lg:w-1/2'>
         <div className='lg:flex gap-6'>
