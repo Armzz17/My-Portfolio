@@ -17,7 +17,7 @@ const Nav = () => {
    
     const content =
     <>
-        <div className=' block  top-16 w-full  bg-bg-[#404258] transition rounded-3xl '>
+        <div className='block top-16 w-full  bg-[#404258] transition rounded-3xl '>
             <ul className='text-center text-xl px-12'>
                 <Link spy={true} smooth={true} to= 'Home'>
                     <li className='my-2 py-2   hover:bg-[#81FFD9] hover:w-30 hover:rounded'>
