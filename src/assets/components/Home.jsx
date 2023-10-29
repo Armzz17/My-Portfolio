@@ -26,8 +26,8 @@ const Home = () => {
       
             <div className='flex flex-1 space-x-4 text-[20px]'>
             <span className='flex flex-1'>Hi, <MdWavingHand/></span>
-            <h3 className='font-semibold text-[#81FFD9] '> I'm Arman</h3></div>
-            <h1 data-aos= "fade-down" className='text-[52px] font-semibold mb-8 leading-normal uppercase'>Web Developer </h1>
+            <h3 className='font-semibold text-[#81FFD9] web '> I'm Arman</h3></div>
+            <h1 data-aos= "fade-down" className='text-[52px] font-semibold mb-8 leading-normal uppercase web'>Web Developer </h1>
             <div className='flex flex-1 space-x-2  text-[#81FFD9] text-[12px]'>
             <p data-aos= "fade-up">Front-End Developer /</p>
             <p data-aos= "fade-up">Back-End Developer /</p>
@@ -57,7 +57,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <img  data-aos= "fade-left" className='rounded-full border-2 p-1 border-[#81FFD9] img_glow' src={Profile} width={290} height={290} alt="" />
+        <img  data-aos= "fade-left" className='rounded-full border-2 p-1 border-[#81FFD9] img_glow hover:animate-pulse' src={Profile} width={290} height={290} alt="" />
     </div>
   )
 }

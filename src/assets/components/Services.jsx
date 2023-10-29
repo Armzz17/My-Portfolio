@@ -11,36 +11,36 @@ const Services = () => {
       <h1 className="text-[45px] font-semibold mb-20 leading-normal uppercase text-[#81FFD9]">Services</h1>
       <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 justify-around gap-20">
         <div data-aos='fade-up' className="relative text-[26px] flex items-center justify-center font-semibold text-[#81FFD9] rounded-3xl h-56 w-44 border-2 border-[#81FFD9] ">
-        <h1 className="absolute mt-48">HTML</h1> <img src={html}></img>
+        <h1 className="absolute mt-48 mb-2 ">HTML</h1> <img className="mb-6" src={html}></img>
        
         </div>
 
 
         <div data-aos='fade-up' className="relative text-[26px] flex items-center justify-center font-semibold text-[#81FFD9] rounded-3xl h-56 w-44 border-2 border-[#81FFD9] ">
-        <h1 className="absolute mt-48">CSS</h1>
-        <img src={css} ></img>
+        <h1 className="absolute  mb-2 mt-48">CSS</h1>
+        <img className="mb-6" src={css} ></img>
         </div>
 
 
         <div data-aos='fade-up' className="relative text-[26px] flex items-center justify-center font-semibold text-[#81FFD9] rounded-3xl h-56 w-44 border-2 border-[#81FFD9] ">
-        <h1 className="absolute mt-48">JAVACRIPT</h1>
-        <img src={javascript}></img>
+        <h1 className="absolute mt-48 mb-2">JAVACRIPT</h1>
+        <img className="mb-6" src={javascript}></img>
         </div>
 
         <div data-aos='fade-up' className="relative text-[26px] flex items-center justify-center font-semibold text-[#81FFD9] rounded-3xl h-56 w-44 border-2 border-[#81FFD9] ">
-        <h1 className="absolute mt-48">REACT JS</h1>
-        <img src={react} ></img>
+        <h1 className="absolute  mb-2 mt-48">REACT JS</h1>
+        <img className="mb-6" src={react} ></img>
         </div>
 
 
         <div data-aos='fade-up' className="relative text-[26px] flex items-center justify-center font-semibold text-[#81FFD9] rounded-3xl h-56 w-44 border-2 border-[#81FFD9] ">
-        <h1 className="absolute mt-48">VITE JS</h1>
-        <img src={vite}></img>
+        <h1 className="absolute  mb-2 mt-48">VITE JS</h1>
+        <img className="mb-6" src={vite}></img>
         </div>
 
         <div data-aos='fade-up' className="relative text-[26px] flex items-center justify-center font-semibold text-[#81FFD9] rounded-3xl h-56 w-44 border-2 border-[#81FFD9] ">
-        <h1 className="absolute mt-48">TAILWIND</h1>
-        <img src={tailwind} ></img>
+        <h1 className="absolute  mb-2 mt-48">TAILWIND</h1>
+        <img className="mb-6" src={tailwind} ></img>
 </div>
       </div>
     </div>
