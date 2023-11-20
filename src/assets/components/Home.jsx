@@ -29,9 +29,9 @@ const Home = () => {
             <h3 className='font-semibold text-[#81FFD9] web '> I'm Arman</h3></div>
             <h1 data-aos= "fade-down" className='text-[52px] font-semibold mb-8 leading-normal uppercase web'>Web Developer </h1>
             <div className='flex flex-1 space-x-2  text-[#81FFD9] text-[12px]'>
-            <p data-aos= "fade-up">Front-End Developer /</p>
-            <p data-aos= "fade-up">Back-End Developer /</p>
-            <p data-aos= "fade-up">Full-Stack Developer /</p>
+            <p data-aos= "fade-up">Front-End Developer |</p>
+            <p data-aos= "fade-up">Back-End Developer |</p>
+            <p data-aos= "fade-up">Full-Stack Developer |</p>
             <p data-aos= "fade-up">UI/UX Designer</p>
            </div> 
            <div className='flex mt-8 gap-2'> 
